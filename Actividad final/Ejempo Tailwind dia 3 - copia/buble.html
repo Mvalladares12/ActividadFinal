@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Tea Landing Page</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+
+    <!-- Barra de navegacion -->
+    <header class="bg-[#4d002b] shadow-md">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex space-x-4">
+                <a href="#" class="text-white">Inicio</a>
+                <a href="#" class="text-white">Menú</a>
+                <a href="#" class="text-white">Sobre Nosotros</a>
+                <a href="#" class="text-white">Contacto</a>
+            </div>
+            <div class="flex items-center justify-center">
+                <img src="./Bubbleimages/Bubbleimages/cafe-removebg-preview.png" alt="Logo" class="h-10 w-auto">
+            </div>
+            <div>
+                <button class="bg-[#4d002b] border-2 border-white text-white font-bold py-2 px-4 rounded">
+                    Comprar
+                </button>
+            </div>
+            <div class="md:hidden">
+                <button class="text-gray-800 focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">Bubble Tea</div>
+            <div class="hidden md:flex space-x-4">
+                <a href="#" class="text-gray-800 hover:text-gray-600">Inicio</a>
+                <a href="#" class="text-gray-800 hover:text-gray-600">Menú</a>
+                <a href="#" class="text-gray-800 hover:text-gray-600">Sobre Nosotros</a>
+                <a href="#" class="text-gray-800 hover:text-gray-600">Contacto</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-gray-800 focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header> -->
+
+    <main>
+        <section class="bg-[#eec4b6] py-20">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center">
+                    <!-- Columna izquierda con texto -->
+                    <div class="md:w-1/2 mb-10 md:mb-0">
+                        <div class="text-center md:text-left">
+                            <h1 class="text-4xl text-center md:text-5xl font-bold text-gray-800 mb-4">
+                                Bubble Tea
+                            </h1>
+                            <p class="text-xl text-center text-gray-600 mb-8">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas incidunt modi fuga
+                                repellendus amet deserunt alias, suscipit consequuntur obcaecati recusandae cumque
+                                blanditiis dolore voluptatum, tempora eveniet praesentium nam atque maiores?
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Columna derecha con imagen -->
+                    <div class="md:w-1/2">
+                        <div class="flex justify-center">
+                            <img src="./Bubbleimages/Bubbleimages/Boba_Tea-removebg-preview.png"
+                                alt="Imagen del Producto" class="rounded-lg ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Section -->
+        <!-- <section class="relative bg-cover bg-center h-screen flex items-center" style="background-image: url('ruta/a/tu/imagen-hero.jpg');">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="container mx-auto px-6 relative z-10 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Descubre el Sabor del Bubble Tea</h1>
+                <p class="text-xl md:text-2xl text-white mb-8">Una experiencia única en cada sorbo</p>
+                <a href="#" class="bg-white text-gray-800 py-2 px-6 rounded-full text-lg font-semibold hover:bg-gray-200 transition duration-300">Ordena Ahora</a>
+            </div>
+        </section> -->
+
+        <!-- Galeria -->
+        <section class="py-12 bg-[#ffeee8]">
+            <h2 class="text-4xl text-center font-bold mt-8 mb-10">Do you want to try our flavors?</h2>
+            <div class="mx-[15px]">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                    <!-- Imagen 1 con texto -->
+                    <div class="flex flex-col">
+                        <div class="relative h-[350px] overflow-hidden rounded-lg  mb-2">
+                            <img src="./Bubbleimages/Bubbleimages/bubble1.png" alt="Imagen 1"
+                                class="absolute inset-0 w-full h-full object-cover">
+                        </div>
+                        <p class="text-center text-gray-800 font-semibold">Texto Imagen 1</p>
+                    </div>
+
+                    <!-- Imagen 2 con texto -->
+                    <div class="flex flex-col">
+                        <div class="relative h-[350px] overflow-hidden rounded-lg mb-2">
+                            <img src="./Bubbleimages/Bubbleimages/bubble2.png" alt="Imagen 2"
+                                class="absolute inset-0 w-full h-full object-cover">
+                        </div>
+                        <p class="text-center text-gray-800 font-semibold">Texto Imagen 2</p>
+                    </div>
+
+                    <!-- Imagen 3 con texto -->
+                    <div class="flex flex-col">
+                        <div class="relative h-[350px] overflow-hidden rounded-lg mb-2">
+                            <img src="./Bubbleimages/Bubbleimages/bubble3.png" alt="Imagen 3"
+                                class="absolute inset-0 w-full h-full object-cover">
+                        </div>
+                        <p class="text-center text-gray-800 font-semibold">Texto Imagen 3</p>
+                    </div>
+
+                    <!-- Imagen 4 con texto -->
+                    <div class="flex flex-col">
+                        <div class="relative h-[350px] overflow-hidden rounded-lg mb-2">
+                            <img src="./Bubbleimages/Bubbleimages/bubble4.png" alt="Imagen 4"
+                                class="absolute inset-0 w-full h-full object-cover">
+                        </div>
+                        <p class="text-center text-gray-800 font-semibold">Texto Imagen 4</p>
+                    </div>
+
+                    <!-- Imagen 5 con texto -->
+                    <div class="flex flex-col">
+                        <div class="relative h-[350px] overflow-hidden rounded-lg  mb-2">
+                            <img src="./Bubbleimages/Bubbleimages/bubble7.png" alt="Imagen 5"
+                                class="absolute inset-0 w-full h-full object-cover">
+                        </div>
+                        <p class="text-center text-gray-800 font-semibold">Texto Imagen 5</p>
+                    </div>
+
+                    <!-- Imagen 6 con texto -->
+                    <div class="flex flex-col">
+                        <div class="relative h-[350px] overflow-hidden rounded-lg mb-2">
+                            <img src="./Bubbleimages/Bubbleimages/bubble6.png" alt="Imagen 6"
+                                class="absolute inset-0 w-full h-full object-cover">
+                        </div>
+                        <p class="text-center text-gray-800 font-semibold">Texto Imagen 6</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Columnas rosadas y verde -->
+        <div class="">
+            <div class="flex flex-col lg:flex-row">
+                <!-- Primera columna principal -->
+                <div class="bg-pink-300 lg:w-1/2 lg:pr-4">
+                    <div class="flex flex-col md:flex-row gap-4 h-full">
+                        <!-- Subcolumna de texto -->
+                        <div class="md:w-1/2">
+                            <h2 class="text-2xl font-bold p-4 mb-4">Título 1</h2>
+                            <p class="p-4 text-gray-700">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <!-- Subcolumna de imagen -->
+                        <div class="md:w-1/2 flex items-end mt-4 md:mt-0">
+                            <div class="w-full h-0 pb-[75%] relative">
+                                <img src="./Bubbleimages/Bubbleimages/bubble8.png" alt="Imagen 1"
+                                    class="absolute right-0 w-[300] h-full ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Segunda columna principal -->
+                <div class="lg:w-1/2 bg-lime-200 lg:pl-4 mt-8 lg:mt-0">
+                    <div class="flex flex-col md:flex-row gap-4 h-full">
+                        <!-- Subcolumna de texto -->
+                        <div class="md:w-1/2">
+                            <h2 class="text-2xl font-bold p-4 mb-4">Título 2</h2>
+                            <p class="text-gray-700 p-4">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                        <!-- Subcolumna de imagen -->
+                        <div class="md:w-1/2 flex items-end mt-4 md:mt-0">
+                            <div class="w-full h-0 pb-[75%] relative">
+                                <img src="./Bubbleimages/Bubbleimages/bubble9.png" alt="Imagen 2"
+                                    class="absolute right-0 w-[300px] h-full object-contain">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjetas -->
+        <div class="py-12 bg-[#ffeee8]  px-10">
+            <div class="flex justify-center items-center space-x-8 mb-10">
+                <h2 class="text-xl font-bold">Flavors</h2>
+                <h2 class="text-xl font-bold">Places</h2>
+                <h2 class="text-xl font-bold">Prices</h2>
+              </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                <!-- Tarjeta 1 -->
+                <div class="bg-white rounded-lg text-center shadow-md flex flex-col">
+                    <img src="./Bubbleimages/Bubbleimages/bubbletaro.jfif" alt="Producto 1"
+                        class="w-full p-4 h-[300] object-cover rounded-t-lg">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h3 class="text-lg font-semibold mb-2">Lorem</h3>
+                        <p class="text-sm text-gray-600 mb-4 flex-grow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, possimus! Necessitatibus repellat vel temporibus itaque distinctio, architecto exercitationem placeat velit modi earum molestiae ut quaerat consequuntur asperiores eius animi eum.</p>
+                        <span class="text-lg font-bold mb-4">$19.99</span>
+                        <button
+                            class="bg-pink-200 text-slate-800 font-semibold px-4 py-2 rounded hover:bg-pink-300 w-full">Buy
+                            now</button>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="bg-white rounded-lg text-center shadow-md flex flex-col">
+                    <img src="./Bubbleimages/Bubbleimages/bubble matcha.jfif" alt="Producto 2"
+                        class="w-full h-[300] p-4 object-cover rounded-t-lg">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h3 class="text-lg font-semibold mb-2">Lorem</h3>
+                        <p class="text-sm text-gray-600 mb-4 flex-grow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vero impedit tempore eveniet tempora sit, ea perferendis alias inventore dolorum veritatis aliquam cupiditate ratione doloribus reprehenderit assumenda quis nemo voluptas.</p>
+                        <span class="text-lg font-bold mb-4">$24.99</span>
+                        <button
+                            class="bg-pink-200 text-slate-800 font-semibold px-4 py-2 rounded hover:bg-pink-300 w-full">Buy
+                            now</button>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="bg-white rounded-lg text-center shadow-md flex flex-col">
+                    <img src="./Bubbleimages/Bubbleimages/bubble caramel.jfif" alt="Producto 3"
+                        class="w-full h-[300] p-4 object-cover rounded-t-lg">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h3 class="text-lg font-semibold mb-2">Lorem</h3>
+                        <p class="text-sm text-gray-600 mb-4 flex-grow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium soluta nisi mollitia quas odit ut facere, in deleniti voluptatum est a consectetur quia, molestiae culpa? Reprehenderit nobis velit molestiae laudantium!</p>
+                        <span class="text-lg font-bold mb-4">$29.99</span>
+                        <button
+                            class="bg-pink-200 text-slate-800 font-semibold px-4 py-2 rounded hover:bg-pink-300 w-full">Buy
+                            now</button>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 4 -->
+                <div class="bg-white rounded-lg text-center shadow-md flex flex-col">
+                    <img src="./Bubbleimages/Bubbleimages/bubbletaro.jfif" alt="Producto 4"
+                        class="w-full h-[300] p-4 object-cover rounded-t-lg">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h3 class="text-lg font-semibold mb-2">Lorem</h3>
+                        <p class="text-sm text-gray-600 mb-4 flex-grow">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse hic aliquam in non inventore, veniam vel cupiditate, quidem ratione tenetur mollitia suscipit minima odio nam doloremque sapiente neque earum perferendis.</p>
+                        <span class="text-lg font-bold mb-4">$34.99</span>
+                        <button
+                            class="bg-pink-200 text-slate-800 font-semibold px-4 py-2 rounded hover:bg-pink-300 w-full">Buy
+                            now</button>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 5 -->
+                <div class="bg-white rounded-lg text-center shadow-md flex flex-col">
+                    <img src="./Bubbleimages/Bubbleimages/bubblefresa.jfif" alt="Producto 5"
+                        class="w-full h-[300] p-4 object-cover rounded-t-lg">
+                    <div class="p-4 flex flex-col flex-grow">
+                        <h3 class="text-lg font-semibold mb-2">Lorem</h3>
+                        <p class="text-sm text-gray-600 mb-4 flex-grow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eum laborum cumque. Vitae ipsam debitis ipsa fugit asperiores nulla quas laudantium dolores. Earum quisquam beatae, aliquam quis voluptate quaerat quos.</p>
+                        <span class="text-lg font-bold mb-4">$39.99</span>
+                        <button
+                            class="bg-pink-200 text-slate-800 font-semibold px-4 py-2 rounded hover:bg-pink-300 w-full">Buy
+                            now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- seccion verde -->
+        <div class="bg-lime-200 flex flex-col md:flex-row gap-8  px-4 py-8">
+
+            <div class="w-full md:w-1/3 flex justify-center items-center">
+                <img src="./Bubbleimages/Bubbleimages/tarobubbletea-removebg-preview.png" alt="Imagen izquierda"
+                    class="max-w-full h-auto">
+            </div>
+
+
+            <div class="w-full md:w-1/3 flex flex-col items-center">
+                <h2 class="text-2xl font-bold mb-4">Join and get 15% off</h2>
+                <p class="text-center mb-6">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas est eum odio corporis? Atque obcaecati nesciunt, cumque nisi quaerat ut, consequuntur rerum, illo beatae quasi perferendis distinctio repellendus error consectetur.
+                </p>
+                <div class="flex w-full max-w-sm">
+                    <input type="text"
+                        class="flex-grow px-4 py-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="Email address">
+                    <button
+                        class="px-4 py-2 bg-[#4d002b] text-white rounded-r-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        Suscribe
+                    </button>
+                </div>
+            </div>
+
+            <div class="w-full md:w-1/3 flex justify-center items-center">
+                <img src="./Bubbleimages/Bubbleimages/coffeebubbletea-removebg-preview.png" alt="Imagen derecha"
+                    class="max-w-full h-auto">
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+    <!-- footer -->
+    <footer class="bg-[#4d002b] text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap -mx-4">
+
+                <div class="w-full md:w-1/4 px-4 mb-8 md:mb-0">
+                    <img src="./Bubbleimages/Bubbleimages/cafe-removebg-preview.png" alt="Logo" class="mb-4 h-10 w-auto">
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:opacity-75 mr-4">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="hover:opacity-75 f mr-4">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="hover:opacity-75 ">
+                            <i class="ml-4 fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-1/4 px-4 mb-8 md:mb-0">
+                    <ul class="space-y-2">
+                        <li><a href="" class="hover:text-gray-300 font-bold">Follow Us</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Facebook</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Twitter</a></li>
+                        <li><a href="#" class="hover:text-gray-300">Instagram</a></li>
+                    </ul>
+                </div>
+
+                <div class="w-full md:w-1/4 px-4 mb-8 md:mb-0">
+                    <ul class="space-y-2">
+                        <li>Contact Info</li>
+                        <li>bubble@tea.com</li>
+                        <li>+503 11223344</li>
+                        <li>Conexion, Soyapango</li>
+                    </ul>
+                </div>
+
+                <div class="w-full md:w-1/4 px-4">
+                    <ul class="space-y-2">
+                        <li>Navigation</li>
+                        <li>Home</li>
+                        <li>Services</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
